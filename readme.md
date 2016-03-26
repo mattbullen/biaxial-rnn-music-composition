@@ -1,6 +1,6 @@
 ## Biaxial Recurrent Neural Network for Music Composition
 
-EDIT: It also generates ringtone-like tracks if you stop after a few generations. This [sample](https://soundcloud.com/matt-bullen-588974879/machine-learning-generated-ringtone) is based on a handful of Aerosmith MIDI tracks.
+EDIT: It also generates ringtone-like tracks if you stop after a few generations. This [sample](https://soundcloud.com/matt-bullen-588974879/machine-learning-generated-ringtone) is based on a handful of Aerosmith and Billy Joel MIDI tracks - I was curious to see what would happen.
 
 #### Forked readme.md:
 
