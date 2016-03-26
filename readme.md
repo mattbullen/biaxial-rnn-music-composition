@@ -1,10 +1,14 @@
-# Biaxial Recurrent Neural Network for Music Composition
+## Biaxial Recurrent Neural Network for Music Composition
+
+EDIT: It also generates ringtone-like tracks if you stop after a few generations. This [sample](https://soundcloud.com/matt-bullen-588974879/machine-learning-generated-ringtone) is based on Aerosmith MIDI tracks.
+
+### Forked readme.md:
 
 This code implements a recurrent neural network trained to generate classical music. The model, which uses LSTM layers and draws inspiration from convolutional neural networks, learns to predict which notes will be played at each time step of a musical piece.
 
 You can read about its design and hear examples on [this blog post](http://www.hexahedria.com/2015/08/03/composing-music-with-recurrent-neural-networks/). 
 
-## Requirements
+##### Requirements
 
 This code is written in Python, and depends on having Theano and theano-lstm (which can be installed with pip) installed. The bare minimum you should need to do to get everything running, assuming you have Python, is
 ```
@@ -14,7 +18,7 @@ sudo pip install numpy scipy theano-lstm python-midi
 
 In addition, the included setup scripts should set up the environment exactly as it was when I trained the network on an Amazon EC2 g2.2xlarge instance with an external EBS volume. Installing it with other setups will likely be slightly different.
 
-## Using it
+##### Using it
 
 First, you will need to obtain a large selection of midi music, preferably in 4/4 time, with notes correctly aligned to beats. These can be placed in a directory "music".
 
