@@ -1,8 +1,8 @@
 ## Biaxial Recurrent Neural Network for Music Composition
 
-EDIT: It also generates ringtone-like tracks if you stop after a few generations. This [sample](https://soundcloud.com/matt-bullen-588974879/machine-learning-generated-ringtone) is based on Aerosmith MIDI tracks.
+EDIT: It also generates ringtone-like tracks if you stop after a few generations. This [sample](https://soundcloud.com/matt-bullen-588974879/machine-learning-generated-ringtone) is based on a handful of Aerosmith MIDI tracks.
 
-### Forked readme.md:
+#### Forked readme.md:
 
 This code implements a recurrent neural network trained to generate classical music. The model, which uses LSTM layers and draws inspiration from convolutional neural networks, learns to predict which notes will be played at each time step of a musical piece.
 
